@@ -8,32 +8,39 @@
         android:layout_margin="20dp"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <EditText
+            android:layout_margin="10dp"
             android:hint="Book Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Author"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Publisher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:hint="Distributer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:layout_margin="10dp"
             android:inputType="number"
             android:hint="Price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
             android:background="@drawable/button"
             android:text="SUBMIT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
+            android:layout_margin="10dp"
             android:background="@drawable/button"
             android:text="BACK"
             android:layout_width="match_parent"
