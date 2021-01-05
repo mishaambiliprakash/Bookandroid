@@ -8,38 +8,59 @@
         android:layout_margin="20dp"
         xmlns:android="http://schemas.android.com/apk/res/android">
         <EditText
+            android:id="@+id/bname"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/name"
             android:layout_margin="10dp"
             android:hint="Book Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:id="@+id/auth"
+            android:drawableLeft="@drawable/author"
+            android:drawablePadding="10dp"
             android:layout_margin="10dp"
             android:hint="Author"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:drawableLeft="@drawable/author"
+            android:drawablePadding="10dp"
+            android:id="@+id/pub"
             android:layout_margin="10dp"
             android:hint="Publisher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:drawableLeft="@drawable/author"
+            android:drawablePadding="10dp"
+            android:id="@+id/dis"
             android:layout_margin="10dp"
             android:hint="Distributer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <EditText
+            android:drawableLeft="@drawable/price"
+            android:drawablePadding="10dp"
+            android:id="@+id/pri"
             android:layout_margin="10dp"
             android:inputType="number"
             android:hint="Price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
+
+            android:onClick="mybtnclick"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
             android:layout_margin="10dp"
             android:background="@drawable/button"
             android:text="SUBMIT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
+            android:textColor="#ffffff"
+            android:textSize="20dp"
             android:layout_margin="10dp"
             android:background="@drawable/button"
             android:text="BACK"
